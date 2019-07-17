@@ -9,4 +9,3 @@ An application that renders a table component to display sample data.
 
 ## Preview
 <!-- ![Table Data Preview](./client/src/images/image.png) -->
-# stratifyd-code-test
