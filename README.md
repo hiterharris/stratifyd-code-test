@@ -15,6 +15,7 @@ An application that renders a table component to display sample data.
 
 ### Clone Repository
 git clone https://github.com/hiterharris/stratifyd-code-test.git
+
 cd stratifyd-code-test
 
 ### Install dependencies for server
