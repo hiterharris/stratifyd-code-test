@@ -12,25 +12,36 @@ An application that renders a table component to display sample data.
 <!-- ![Table Data Preview](./client/src/images/image.png) -->
 
 ## Quick Start
+
+### Clone Repository
 ``` bash
-# Clone Repository
 git clone https://github.com/hiterharris/stratifyd-code-test.git
 
 cd stratifyd-code-test
+```
 
-# Install dependencies for server
+### Install dependencies for server
+``` bash
 npm install
+```
 
-# Install dependencies for client
+### Install dependencies for client
+``` bash
 npm run client-install
+```
 
-# Run the client & server with concurrently
+### Run the client & server with concurrently
+``` bash
 npm run dev
+```
 
-# Run the Express server only
+### Run the Express server only
+``` bash
 npm run server
+```
 
-# Run the React client only
+### Run the React client only
+``` bash
 npm run client
 ```
 
