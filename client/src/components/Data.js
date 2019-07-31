@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import './data.css';
-
-import mock from '../data/mock.json';
+import './Data.css';
+import mock from '../data/data.json';
 
 class Data extends Component {
     constructor() {
