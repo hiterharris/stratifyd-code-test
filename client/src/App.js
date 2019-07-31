@@ -12,7 +12,7 @@ export default class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>React Express App</h2>
         </div>
-        {/* <Data /> */}
+        <Data />
         <Table />
       </div>
     );
