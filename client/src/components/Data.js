@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import mock from '../data/data.json';
 
 class Data extends Component {
     constructor() {
@@ -7,7 +6,6 @@ class Data extends Component {
         this.state = {
             data: [],
         }
-        console.log(mock);
     }
 
     componentDidMount() {
@@ -20,11 +18,7 @@ class Data extends Component {
         return (
             <div>
                 <ul>
-                    {this.state.data.map(user =>
-                        <div key={user.id}>
-                            <h1>{user.firstName} {user.lastName}</h1>
-                        </div>
-                    )}
+                    {this.state.data.map(data => <div>{data.id}</div>)}
                 </ul>
             </div>
         );

@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const data = require('./client/src/data/data.json');
+const data = require('./client/src/data/sample.json');
 
 app.get('/api/data', (req, res) => {
     res.json(data);
