@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import './data.css';
+import mock from '../data/data.json';
 
 class Data extends Component {
     constructor() {
         super();
         this.state = {
-            data: []
+            data: [],
         }
+        console.log(mock);
     }
 
     componentDidMount() {
@@ -31,4 +32,3 @@ class Data extends Component {
 }
 
 export default Data;
-

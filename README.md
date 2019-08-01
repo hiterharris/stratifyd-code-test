@@ -31,7 +31,7 @@ npm run client-install
 
 ### Run the client & server with concurrently
 ``` bash
-npm run dev
+npm run startdev
 ```
 
 ### Run the Express server only
