@@ -1,4 +1,3 @@
-# Stratifyd React Express App
 ![Stratifyd Logo](client/src/images/stratifyd-logo.png)
 
 ## Description
