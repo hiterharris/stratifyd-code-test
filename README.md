@@ -1,8 +1,7 @@
 ![Stratifyd Logo](client/src/images/stratifyd-logo.png)
-# React Express App
 
 ## Description
-An application that renders a table component to display sample data.
+A React, Express application that renders a table component to display sample data.
 
 ## Tools Used
 1. An Express.js server on the back end to return deflated small data.
