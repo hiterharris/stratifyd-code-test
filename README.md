@@ -1,5 +1,5 @@
-# Stratifyd React Express App
 ![Stratifyd Logo](client/src/images/stratifyd-logo.png)
+# React Express App
 
 ## Description
 An application that renders a table component to display sample data.
