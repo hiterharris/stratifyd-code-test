@@ -1,5 +1,5 @@
 # Stratifyd React Express App
-![Stratifyd Logo](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiPq9SrhuLjAhVjU98KHcKdCFsQjRx6BAgBEAU&url=https%3A%2F%2Fwww.businesswire.com%2Fnews%2Fhome%2F20190709005300%2Fen%2FStratifyd-Selected-Present-AI-powered-Analytics-Platform-FinovateFall&psig=AOvVaw00ZRr67XKxByGaEkHQg9FF&ust=1564761866135354)
+![Stratifyd Logo](/client/src/images/stratifyd-logo.png)
 
 ## Description
 An application that renders a table component to display sample data.
