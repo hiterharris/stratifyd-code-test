@@ -13,7 +13,6 @@ export default class App extends Component {
           <img src={stratifyd} className="stratifyd-logo" alt="stratifyd-logo" />
           <h2 className="App-title">React Express App</h2>
         </div>
-        <Data />
         <Table />
       </div>
     );

@@ -10,4 +10,4 @@ const port = 3001;
 
 app.listen(port);
 
-// START SERVER & CLIENT: npm run dev
+// START SERVER & CLIENT: npm run startdev
