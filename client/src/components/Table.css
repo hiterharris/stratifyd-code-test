@@ -1,0 +1,29 @@
+.container {
+    margin: 2% 5%;
+}
+
+th {
+    padding: 1%;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+td {
+    width: 25%;
+}
+
+.data-cell, .data-content {
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.data-cell {
+    align-items: center;
+}
+
+.data-content {
+    overflow: scroll;
+}

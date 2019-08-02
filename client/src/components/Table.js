@@ -6,6 +6,7 @@ export default class Test extends Component {
         super();
         this.state = {
             data: [],
+
         }
     }
 
@@ -17,7 +18,7 @@ export default class Test extends Component {
 
     render() {
         return (
-            <div>
+            <div className="container">
                 <thead>
                     <tr>
                         <th>Id</th>
@@ -28,10 +29,10 @@ export default class Test extends Component {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>{this.state.data.map(data => <div>{data.id}</div>)}</td>
-                        <td>{this.state.data.map(data => <div>{data.Content}</div>)}</td>
-                        <td>{this.state.data.map(data => <div>{data.Time}</div>)}</td>
-                        <td>{this.state.data.map(data => <div>{data.Category}</div>)}</td>
+                        <td>{this.state.data.map(data => <div className="data-cell">{data.id}</div>)}</td>
+                        <td>{this.state.data.map(data => <div className="data-content">{data.Content}</div>)}</td>
+                        <td>{this.state.data.map(data => <div className="data-cell">{data.Time}</div>)}</td>
+                        <td>{this.state.data.map(data => <div className="data-cell">{data.Category}</div>)}</td>
                     </tr>
                 </tbody>
             </div>
