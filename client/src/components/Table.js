@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './Table.css';
 
-export default class Test extends Component {
+export default class Table extends Component {
     constructor() {
         super();
         this.state = {
             data: [],
+
         }
     }
 
@@ -29,7 +30,7 @@ export default class Test extends Component {
                 <tbody>
                     <tr>
                         <td>{this.state.data.map(data => <div className="data-cell">{data.id}</div>)}</td>
-                        <td>{this.state.data.map(data => <div className="data-content"> {data.Content}</div>)}</td>
+                        <td>{this.state.data.map(data => <div className="data-content">{data.Content}</div>)}</td>
                         <td>{this.state.data.map(data => <div className="data-cell">{data.Time}</div>)}</td>
                         <td>{this.state.data.map(data => <div className="data-cell">{data.Category}</div>)}</td>
                     </tr>
