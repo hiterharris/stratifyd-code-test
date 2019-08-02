@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logo from './images/logo.svg';
 import stratifyd from './images/stratifyd-logo.png';
-import Data from './components/Data';
 import Table from './components/Table';
 import './App.css';
 
