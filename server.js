@@ -9,5 +9,3 @@ app.get('/api/data', (req, res) => {
 const port = 3001;
 
 app.listen(port);
-
-// START SERVER & CLIENT: npm run startdev
