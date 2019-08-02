@@ -1,28 +1,29 @@
-* {
-    list-style: none;
-    padding: 0%;
+.container {
+    margin: 2% 5%;
 }
 
-.table {
+th {
+    padding: 1%;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+td {
+    width: 25%;
+}
+
+.data-cell, .data-content {
+    height: 100px;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
 }
 
-.table-header {
-    font-weight: bold;
+.data-cell {
+    align-items: center;
 }
 
-.table-column {
-    width: 25%;
-}
-
-.table-data {
-    height: 100px;
-    border: 1px solid black;
-}
-
-.table-data-content {
-    height: 100px;
-    border: 1px solid black;
+.data-content {
     overflow: scroll;
 }
