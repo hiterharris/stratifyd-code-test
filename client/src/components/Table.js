@@ -34,8 +34,6 @@ export default class Table extends Component {
                     <ul className="table-column">
                         <li className="table-header">Category</li>
                         <li>{this.state.data.map(data => <div className="table-data">{data.Category}</div>)}</li>
-                        {/* <li>{category}</li> */}
-                        {/* {category} */}
                     </ul>
                 </ul>
             </div>
