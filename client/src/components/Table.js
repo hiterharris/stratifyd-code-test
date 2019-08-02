@@ -16,15 +16,6 @@ export default class Table extends Component {
     }
 
     render() {
-        // const tableData = this.state.data.map(data => <li>{data}</li>);
-        // const id = this.state.data.map(data => <li className="table-content">{data.id}</li>);
-        // const content = this.state.data.map(data => <li className="table-content">{data.Content}</li>);
-        // const time = this.state.data.map(data => <li className="table-content">{data.Time}</li>);
-        // const categoryList = this.state.data.map(data => <div className="table-data">{data.Category}</div>);
-        // const category = categoryList.map(category => <li className="table-content">{category}</li>)
-        // if (category.length === 0) {
-        //     return null;
-        // } 
         return (
             <div>
                 <ul className="table">
